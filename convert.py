@@ -16,3 +16,4 @@ with open("inches_fighters.csv", "w") as file:
 			"Name": f["Name"],
 			"Country": f["Country"],
 			"Height": cm_to_in(f["Height (in cm)"])
+		})
